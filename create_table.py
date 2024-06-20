@@ -2,8 +2,8 @@ import psycopg2
 from psycopg2 import sql
 
 conn = psycopg2.connect(
-    user = "postgres",
-    password = "digite sua senha",
+    user = "usuario",
+    password = "senha",
     host = "localhost",
     port = "5432"
 )
@@ -19,8 +19,8 @@ conn.close()
 
 conn = psycopg2.connect(
     dbname = db_name,
-    user = "postgres",
-    password = "digite sua senha",
+    user = "usuario",
+    password = "senha",
     host = "localhost",
     port = "5432"
 )
